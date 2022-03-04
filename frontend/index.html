@@ -43,181 +43,477 @@
       <button>Shop Now</button>
     </section>
 
-    <!-- features-->
-    <section id="feature" class="section-p1">
-      <div class="fe-box">
+
+    <div class="flex-container">
+      <div class="flex-box">
+        
         <img src="img/features/f1.png" alt="">
         <h6>Free Shipping On Orders <br> NGN 20,000</h6>
+
       </div>
 
-      <div class="fe-box">
+      <div class="flex-box">
         <img src="img/features/f2.png" alt="">
         <h6>Online and Fast Orders</h6>
       </div>
 
-      <div class="fe-box">
+      <div class="flex-box">
         <img src="img/features/f3.png" alt="">
         <h6>Save Money With Coupons</h6>
+   
       </div>
-
-      <div class="fe-box">
+      <div class="flex-box">
+        
         <img src="img/features/f4.png" alt="">
         <h6>Promotions</h6>
       </div>
 
-      <div class="fe-box">
+      <div class="flex-box">
         <img src="img/features/f5.png" alt="">
         <h6>Trustworthy Products</h6>
+          
       </div>
 
-      <div class="fe-box">
+      <div class="flex-box">
         <img src="img/features/f6.png" alt="">
         <h6>Training % 24/7 Support</h6>
+          
       </div>
-    </section>
+  </div>
+<style type="text/css">
+  .flex-container{
+            
+            
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            padding-bottom: 50px;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+        .flex-box{
+            width: 100px;
+            height: 120px;
+            font-size: 15px;
+            border: 1px solid #cce7d0;
+            text-align: center;
+            line-height: 1;
+            border-radius: 5px;
+            margin: 25px 0;
+            
+            
+        }
+        @media only screen and (min-width: 768px) and (max-width: 1500px) {
+          .flex-box{
+            width: 150px;
+            height: 170px;
+            font-size: 17px;
+            border-radius: 6px;
+            margin: 15px 0;
+            
+            
+        }
+  
+  
+  }
+        .flex-box img{
+          width: 100%;
+          height: auto;
+          
 
-    <!--- products section-->
-    <section id="product1" class="section-p1">
-      <h2>Featured Products</h2>
-      <p>Embedded Systems Components</p>
-      <div class="pro-container">
-        <div class="pro">
-          <img src="img/products/1.png" alt="">
-          <div class="des">
-            <span>adruino</span>
-            <h5>Adruino Uno</h5>
-            <div class="star">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </div>
-            <h4>NGN 5000</h4>
-          </div>
-          <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
-        </div>
+        }
+        .flex-box h6{
+          height: auto;
+          width: auto;
+          display: inline-block;
+          padding: 9px 8px 6px 8px;
+          line-height: 1;
+          border-radius: 4px;
+          font-size: 9px;
+          color: #088178;
+          margin: 6px;
+          background-color: #fddde4;
+          
+        }
+        @media only screen and (min-width: 567px) and (max-width: 767px) {
+          .flex-box h6{
+            font-size:10px;
+          }
+        }
+        @media only screen and (min-width: 768px) and (max-width: 1500px) {
+          .flex-box h6{
+          height: auto;
+          width: auto;
+          display: inline-block;
+          padding: 9px 8px 6px 8px;
+          line-height: 1;
+          border-radius: 4px;
+          font-size: 12px;
+          color: #088178;
+          margin: 6px;
+          background-color: #fddde4;
+          
+        }
+      }
+  
+        .flex-box:nth-child(2) h6{
+          background-color: #cdebbc;
+        }
 
-        <div class="pro">
-          <img src="img/products/2.png" alt="">
-          <div class="des">
-            <span>microcontroller</span>
-            <h5>Microcontroller</h5>
-            <div class="star">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </div>
-            <h4>NGN 5000</h4>
-          </div>
-          <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
-        </div>
+        .flex-box:nth-child(3) h6{
+          background-color: #d1e8f2;
+        }
 
-        <div class="pro">
-          <img src="img/products/4.png" alt="">
-          <div class="des">
-            <span>timer</span>
-            <h5>555 Tiner</h5>
-            <div class="star">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </div>
-            <h4>NGN 500</h4>
-          </div>
-          <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
-        </div>
+        .flex-box:nth-child(4) h6{
+          background-color: #cdd4f8;
+        }
 
-        <div class="pro">
-          <img src="img/products/2.png" alt="">
-          <div class="des">
-            <span>microcontroller</span>
-            <h5>Microcontroller</h5>
-            <div class="star">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </div>
-            <h4>NGN 5000</h4>
-          </div>
-          <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
-        </div>
+        .flex-box:nth-child(5) h6{
+          background-color: #f6dbf6;
+        }
 
-        <div class="pro">
-          <img src="img/products/1.png" alt="">
-          <div class="des">
-            <span>adruino</span>
-            <h5>Adruino Uno</h5>
-            <div class="star">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </div>
-            <h4>NGN 5000</h4>
-          </div>
-          <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
-        </div>
+        .flex-box:nth-child(6) h6{
+         background-color: #fff2e5;
+        }
 
-        <div class="pro">
-          <img src="img/products/2.png" alt="">
-          <div class="des">
-            <span>microcontroller</span>
-            <h5>Microcontroller</h5>
-            <div class="star">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </div>
-            <h4>NGN 5000</h4>
-          </div>
-          <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
-        </div>
-
-        <div class="pro">
-          <img src="img/products/4.png" alt="">
-          <div class="des">
-            <span>timer</span>
-            <h5>555 Timer</h5>
-            <div class="star">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </div>
-            <h4>NGN 500</h4>
-          </div>
-          <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
-        </div>
-
-        <div class="pro">
-          <img src="img/products/2.png" alt="">
-          <div class="des">
-            <span>microcontroller</span>
-            <h5>Microcontroller</h5>
-            <div class="star">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </div>
-            <h4>NGN 5000</h4>
-          </div>
-          <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
-        </div>
+</style>  
+<section>
+  <h2 style="text-align: center;">Featured Products</h2>
+      <p style="text-align: center;">Embedded Systems Components</p>
+<div class="product-container">
+  
+  <div class="flex-box">
+    <img src="img/products/1.png" alt="">
+    <div class="des">
+      <span>adruino</span>
+      <h5>Adruino Uno</h5>
+      <div class="star">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
       </div>
-    </section> 
+      <h4>NGN 5000</h4>
+    </div>
+    <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+  </div>
+
+  <div class="flex-box">
+    <img src="img/products/2.png" alt="">
+          <div class="des">
+            <span>microcontroller</span>
+            <h5>Microcontroller</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>NGN 5000</h4>
+          </div>
+          <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+        </div>
+        <div class="flex-box">
+          <img src="img/products/2.png" alt="">
+                <div class="des">
+                  <span>microcontroller</span>
+                  <h5>Microcontroller</h5>
+                  <div class="star">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <h4>NGN 5000</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+              </div>
+              <div class="flex-box">
+                <img src="img/products/2.png" alt="">
+                      <div class="des">
+                        <span>microcontroller</span>
+                        <h5>Microcontroller</h5>
+                        <div class="star">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                        </div>
+                        <h4>NGN 5000</h4>
+                      </div>
+                      <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+                    </div>
+                    <div class="flex-box">
+                      <img src="img/products/4.png" alt="">
+                      <div class="des">
+                        <span>timer</span>
+                        <h5>555 Tiner</h5>
+                        <div class="star">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                        </div>
+                        <h4>NGN 500</h4>
+                      </div>
+                      <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+                    </div>
+                    <div class="flex-box">
+                      <img src="img/products/4.png" alt="">
+                      <div class="des">
+                        <span>timer</span>
+                        <h5>555 Tiner</h5>
+                        <div class="star">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                        </div>
+                        <h4>NGN 500</h4>
+                      </div>
+                      <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+                    </div>
+                    <div class="flex-box">
+                      <img src="img/products/4.png" alt="">
+                      <div class="des">
+                        <span>timer</span>
+                        <h5>555 Tiner</h5>
+                        <div class="star">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                        </div>
+                        <h4>NGN 500</h4>
+                      </div>
+                      <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+                    </div>
+                    <div class="flex-box">
+                      <img src="img/products/4.png" alt="">
+                      <div class="des">
+                        <span>timer</span>
+                        <h5>555 Tiner</h5>
+                        <div class="star">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                        </div>
+                        <h4>NGN 500</h4>
+                      </div>
+                      <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+                    </div>
+                    <div class="flex-box">
+                      <img src="img/products/4.png" alt="">
+                      <div class="des">
+                        <span>timer</span>
+                        <h5>555 Tiner</h5>
+                        <div class="star">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                        </div>
+                        <h4>NGN 500</h4>
+                      </div>
+                      <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+                    </div>
+                    <div class="flex-box">
+                      <img src="img/products/4.png" alt="">
+                      <div class="des">
+                        <span>timer</span>
+                        <h5>555 Tiner 3d sytems</h5>
+                        <div class="star">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                        </div>
+                        <h4>NGN 500</h4>
+                      </div>
+                      <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+                    </div>
+                    <div class="flex-box">
+                      <img src="img/products/4.png" alt="">
+                      <div class="des">
+                        <span>timer</span>
+                        <h5>555 Tiner</h5>
+                        <div class="star">
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                          <i class="fas fa-star"></i>
+                        </div>
+                        <h4>NGN 500</h4>
+                      </div>
+                      <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+                    </div>
+</div>
+</section>
+
+
+  
+<style type="text/css">
+  .product-container{
+    display: flex;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+  .product-container .flex-box{
+      width: 160px;
+      height: auto;
+      font-size: 12px;
+      border: 1px solid #cce7d0;
+      line-height: 1;
+      border-radius: 20px;
+      padding: 10px 12px;
+      box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+      margin: 15px 0;
+      position: relative;
+      
+
+
+  }
+  @media only screen and (min-width: 768px) and (max-width: 1500px) {
+    .product-container .flex-box{
+      width: 18%;
+      padding: 10px 12px;
+      
+
+    }
+  
+  
+  }
+  .product-container .flex-box:hover{
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.08);
+}
+.product-container .flex-box img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.product-container .flex-box .des{
+    text-align: start;
+    padding: 10px 0;
+}
+.product-container .flex-box .des span{
+    color: #606063;
+    font-size: 10px;
+}
+@media only screen and (min-width: 768px) and (max-width: 1500px) {
+  .product-container .flex-box .des span{
+    color: #606063;
+    font-size: 12px;
+  
+
+    }
+  
+  
+  }
+
+
+.product-container .flex-box .des h5{
+    padding-top: 6px;
+    color: #1a1a1a;
+    font-size: 13px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1500px) {
+  .product-container .flex-box .des h5{
+    padding-top: 6px;
+    color: #1a1a1a;
+    font-size: 14px;
+}
+  
+  
+  }
+
+
+
+
+.product-container .flex-box .des i{
+    font-size: 10px;
+    color: #f58e08;
+}
+@media only screen and (min-width: 768px) and (max-width: 1500px) {
+ 
+.product-container .flex-box .des i{
+    font-size: 12px;
+    color: #f58e08;
+}
+  
+  
+  }
+
+
+
+.product-container .flex-box  .des h4{
+    padding-top: 6px;
+    font-size: 13px;
+    font-weight: 700;
+    color: #088178;
+}
+@media only screen and (min-width: 768px) and (max-width: 1500px) {
+
+  .product-container .flex-box  .des h4{
+    padding-top: 6px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #088178;
+}   
+   
+   }
+.product-container .flex-box  .cart{
+    width: 30px;
+    height: 30px;
+    line-height: 35px;
+    border-radius: 50px;
+    background-color: #e8f6ea;
+    font-weight: 500;
+    color: #f58e08;
+    border: 1px solid #cce7d0;
+    bottom: 20px;
+    right: 10px;
+    position: absolute;
+}
+@media only screen and (min-width: 768px) and (max-width: 1500px) {
+  .product-container .flex-box  .cart{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #e8f6ea;
+    font-weight: 500;
+    color: #f58e08;
+    border: 1px solid #cce7d0;
+    bottom: 20px;
+    right: 10px;
+    position: absolute;
+}  
+ 
+ }
+
+
+
+</style>
 
     <!--- banner section-->
     <section id="banner" class="section-m1">
@@ -227,148 +523,144 @@
     </section>
 
     <!--- products section-->
-    <section id="product1" class="section-p1">
-      <h2>Safety Products</h2>
-      <p>Field Trip Tools</p>
-      <div class="pro-container">
-        <div class="pro">
-          <img src="img/products/3.png" alt="">
-          <div class="des">
-            <span>rocklander</span>
-            <h5>Rocklander Safety Boots</h5>
-            <div class="star">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </div>
-            <h4>NGN 5000</h4>
+    <section>
+      <h2 style="text-align: center;">Safety Products</h2>
+          <p style="text-align: center;">Field Trip Tools</p>
+    <div class="product-container">
+      
+      <div class="flex-box">
+        <img src="img/products/7.png" alt="">
+        <div class="des">
+          <span>adruino</span>
+          <h5>Adruino Uno</h5>
+          <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
           </div>
-          <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+          <h4>NGN 5000</h4>
         </div>
-
-        <div class="pro">
-          <img src="img/products/5.png" alt="">
-          <div class="des">
-            <span>hammer</span>
-            <h5>Hammer</h5>
-            <div class="star">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </div>
-            <h4>NGN 5000</h4>
-          </div>
-          <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
-        </div>
-
-        <div class="pro">
-          <img src="img/products/6.png" alt="">
-          <div class="des">
-            <span>helmet</span>
-            <h5>Safety Hard Hats</h5>
-            <div class="star">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </div>
-            <h4>NGN 2500</h4>
-          </div>
-          <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
-        </div>
-
-        <div class="pro">
-          <img src="img/products/7.png" alt="">
-          <div class="des">
-            <span>compass</span>
-            <h5>compass</h5>
-            <div class="star">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </div>
-            <h4>NGN 5000</h4>
-          </div>
-          <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
-        </div>
-
-        <div class="pro">
-          <img src="img/products/3.png" alt="">
-          <div class="des">
-            <span>rocklander</span>
-            <h5>Rocklander Safety Boots</h5>
-            <div class="star">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </div>
-            <h4>NGN 5000</h4>
-          </div>
-          <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
-        </div>
-
-        <div class="pro">
-          <img src="img/products/5.png" alt="">
-          <div class="des">
-            <span>hammer</span>
-            <h5>Hammer</h5>
-            <div class="star">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </div>
-            <h4>NGN 5000</h4>
-          </div>
-          <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
-        </div>
-
-        <div class="pro">
-          <img src="img/products/6.png" alt="">
-          <div class="des">
-            <span>helmet</span>
-            <h5>Safety Hard Hats</h5>
-            <div class="star">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </div>
-            <h4>NGN 2500</h4>
-          </div>
-          <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
-        </div>
-
-        <div class="pro">
-          <img src="img/products/7.png" alt="">
-          <div class="des">
-            <span>compass</span>
-            <h5>compass</h5>
-            <div class="star">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </div>
-            <h4>NGN 5000</h4>
-          </div>
-          <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
-        </div>
+        <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
       </div>
-    </section>  
-
+    
+      <div class="flex-box">
+        <img src="img/products/3.png" alt="">
+              <div class="des">
+                <span>microcontroller</span>
+                <h5>Microcontroller</h5>
+                <div class="star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h4>NGN 5000</h4>
+              </div>
+              <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="flex-box">
+              <img src="img/products/5.png" alt="">
+                    <div class="des">
+                      <span>microcontroller</span>
+                      <h5>Microcontroller</h5>
+                      <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                      <h4>NGN 5000</h4>
+                    </div>
+                    <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+                  </div>
+                  <div class="flex-box">
+                    <img src="img/products/6.png" alt="">
+                          <div class="des">
+                            <span>microcontroller</span>
+                            <h5>Microcontroller</h5>
+                            <div class="star">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                            </div>
+                            <h4>NGN 5000</h4>
+                          </div>
+                          <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+                        </div>
+                        <div class="flex-box">
+                          <img src="img/products/7.png" alt="">
+                          <div class="des">
+                            <span>timer</span>
+                            <h5>555 Tiner</h5>
+                            <div class="star">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                            </div>
+                            <h4>NGN 500</h4>
+                          </div>
+                          <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+                        </div>
+                        <div class="flex-box">
+                          <img src="img/products/4.png" alt="">
+                          <div class="des">
+                            <span>timer</span>
+                            <h5>555 Tiner</h5>
+                            <div class="star">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                            </div>
+                            <h4>NGN 500</h4>
+                          </div>
+                          <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+                        </div>
+                        <div class="flex-box">
+                          <img src="img/products/4.png" alt="">
+                          <div class="des">
+                            <span>timer</span>
+                            <h5>555 Tiner</h5>
+                            <div class="star">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                            </div>
+                            <h4>NGN 500</h4>
+                          </div>
+                          <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+                        </div>
+                        <div class="flex-box">
+                          <img src="img/products/4.png" alt="">
+                          <div class="des">
+                            <span>timer</span>
+                            <h5>555 Tiner</h5>
+                            <div class="star">
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                              <i class="fas fa-star"></i>
+                            </div>
+                            <h4>NGN 500</h4>
+                          </div>
+                          <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+                        </div>
+                        
+                        
+    </div>
+    </section>
     <!-- small ads banner-->
     <section id="sm-banner" class="section-p1">
       <div class="banner-box">
@@ -416,7 +708,7 @@
 
     <footer class="section-p1">
       <div class="col">
-        <img class="logo" src="img/futlogo.png" alt="">
+        <img class="logo" src="img/futl.png" alt="">
         <h4>Contact</h4>
         <p><strong>Address: </strong> Federal University Of Petroleum Resources Effurun <span>FUPRE</span></p>
         <p><strong>Phone: </strong> +234 7525 4818 / +234 0000 0000</p>
